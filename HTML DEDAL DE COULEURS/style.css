@@ -58,7 +58,7 @@ html { scroll-padding-top: 96px; }
 .navigation { width: 100%; }
 .navigation ul { display: grid; grid-template-columns: .8fr 1.25fr 1.08fr 1fr; gap: 4px; padding: 0; list-style: none; }
 .navigation a { display: flex; justify-content: center; align-items: center; min-height: 44px; font-size: clamp(12px, 3.846vw, 15px); white-space: nowrap; }
-.navigation [aria-current="page"] { color: var(--orange); text-decoration: underline; text-underline-offset: .3em; }
+.navigation [aria-current="page"] { color: var(--orange); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .3em; }
 .pied-page { padding-top: 32px; padding-bottom: 24px; font-size: 16px; }
 .pied-page__haut { display: grid; gap: 24px; }
 .pied-page__identite { display: flex; align-items: center; gap: 16px; }
@@ -393,7 +393,7 @@ h1, h2, h3, .pied-page a { overflow-wrap: break-word; }
   .navigation-mobile { position: absolute; top: 100%; left: 0; right: 0; padding: 12px var(--gouttiere) 20px; background: var(--sable); box-shadow: 0 8px 12px rgba(59,37,28,.12); }
   .navigation-mobile ul { display: grid; gap: 4px; list-style: none; padding: 0; }
   .navigation-mobile a { display: flex; align-items: center; min-height: 48px; padding: 8px 12px; font: 18px/1.4 "Blinker", Arial, sans-serif; }
-  .navigation-mobile [aria-current="page"] { color: var(--orange-sur-sable); text-decoration: underline; text-underline-offset: 5px; }
+  .navigation-mobile [aria-current="page"] { color: var(--orange-sur-sable); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 5px; }
 }
 @media print { .entete { position: static; } .menu-mobile { display: none; } }
 
