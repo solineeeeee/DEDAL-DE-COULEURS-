@@ -376,7 +376,7 @@ h1, h2, h3, .pied-page a { overflow-wrap: break-word; }
 .logo-entete { width: 108px; height: 70px; object-fit: contain; }
 .navigation { width: auto; max-width: none; }
 .navigation ul { display: flex; gap: clamp(16px, 3vw, 40px); }
-.navigation a { font-size: 17px; min-height: 44px; }
+.navigation a { font-family: "Blinker", Arial, sans-serif; font-size: 17px; min-height: 44px; }
 @media (max-width: 899px) {
   html { scroll-padding-top: 80px; }
   .entete__contenu { height: 64px; padding-top: 6px; padding-bottom: 6px; }
